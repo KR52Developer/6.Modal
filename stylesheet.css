@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bannner {
+    background: url("./Images/spiderman--wallpaper.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.overlay {bac
+    margin-top: -100vh;
+    background: rgba(232, 14, 14, 0.81);
+    min-height: 100vh;
+    /* background-position: center; */
+    /* background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+}
+
+
+
+.overlayVisibilty {
+    visibility: visible;
+}
+
+.content {
+    background: rgba(36, 35, 35, 0.295);
+    backdrop-filter: blur(3px);
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(5, 5, 5, 0.2);
+    border: 2px solid white;
+}
+
+.contentOverlay {
+    z-index: 5;
+    background: rgb(255, 255, 255);
+    /* backdrop-filter: blur(3px); */
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(5, 5, 5, 0.2);
+    border: 2px solid white;
+}
+
+
+
+.heading {
+    color: rgb(255, 255, 255);
+    /* font-style: italic; */
+    padding: 25px;
+}
+
+
+.OverlayHeading {
+
+    color: rgb(37, 10, 116);
+    /* font-style: italic; */
+    padding: 25px;
+}
+
+.modalBtn {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid;
+    outline: transparent;
+    cursor: pointer;
+    background: rgba(164, 161, 161, 0.295);
+
+}
+
+.closeBtn {
+    font-size: 25px;
+    color: brown;
+    border: none;
+    outline: transparent;
+    cursor: pointer;
+    background: transparent;
+}
